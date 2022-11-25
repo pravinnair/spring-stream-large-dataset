@@ -43,7 +43,7 @@ public class Employee {
                 .anEmployee()
                 .withFirstName(this.firstName)
                 .withLastName(this.lastName)
-                .withBirthDate(this.dob)
+                .withBirthDate(this.dob.toString())
                 .withEmailId(this.emailId)
                 .withActive(this.active)
                 .build();

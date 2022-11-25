@@ -16,7 +16,7 @@ import java.util.Date;
 public class EmployeeModel {
     private String firstName;
     private String lastName;
-    private Date dob;
+    private String dob;
     private String emailId;
     private Boolean active;
 
@@ -24,7 +24,7 @@ public class EmployeeModel {
         private String firstName;
         private String lastName;
         private String emailId;
-        private Date dob;
+        private String dob;
         private Boolean active;
         private EmployeeBuilder() {
         }
@@ -49,7 +49,7 @@ public class EmployeeModel {
         }
 
 
-        public EmployeeBuilder withBirthDate(Date dob) {
+        public EmployeeBuilder withBirthDate(String dob) {
             this.dob = dob;
             return this;
         }
